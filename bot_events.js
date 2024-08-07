@@ -3,7 +3,7 @@ import {osInfo, serverInfo, client} from "./hleb_bot.js";
 
 client.on("messageCreate", (message) => {
 	if(!message.author.bot){
-		if(message.content == "!пингани еблан"){
+		if(message.content == "!пингани"){
 			message.channel.send("пинганул");
 		}
 		else if(message.content == "!admininfo"){
