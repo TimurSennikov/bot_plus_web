@@ -94,7 +94,7 @@ var serverInfo = {
 setInterval(serverInfo.fetch, 10000);
 setInterval(serverInfo.update, 15000);
 
-client.login("MTI2OTYyNDAwOTYxMjMzMzA1Nw.GWd_hL.ak3as438u8x4cdG-FHhlL6eT2TmamB7lBLv8L8").then(() => {client.user.setActivity(config.noDataMessage);});
+client.login("TOKEN HERE <").then(() => {client.user.setActivity(config.noDataMessage);});
 
 // South, я ЗНАЮ про существование this, но в этом коде много чего выполняется функцией setInterval, в которой this нет (код выполняется в другом контексте), поэтому все хранится в объектах, которые ссылаются на себя же, сорян :/
 
